@@ -90,7 +90,7 @@ GitHub Actions + Jenkins 자동화 빌드
 Docker 이미지 빌드 및 AWS EC2 배포
 
 HTTPS: Nginx 리버스 프록시 + 인증서 설정
-
+```
 ---
 
 ## 🛠️ 기술 스택
