@@ -30,7 +30,7 @@ StarVive는 스파로스 아카데미에서 진행된 팀 프로젝트로,
 - Gradle (Groovy)
 - Spring Data JPA
 - Spring Security + JWT
-- Redis (캐시, 세션 처리)
+- Redis
 - Swagger (Springdoc OpenAPI)
 
 ### 🛠 Infra
