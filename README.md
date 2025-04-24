@@ -63,7 +63,7 @@ cd StarVive_BE
 ```yaml
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/starvive_db
+    url: jdbc:mysql://localhost:3306/starvive_database
     username: your_mysql_user
     password: your_mysql_password
   jpa:
