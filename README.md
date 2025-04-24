@@ -91,6 +91,8 @@ Docker 이미지 빌드 및 AWS EC2 배포
 
 HTTPS: Nginx 리버스 프록시 + 인증서 설정
 
+---
+
 ## 🛠️ 기술 스택
 
 ### Back-End
@@ -118,3 +120,5 @@ HTTPS: Nginx 리버스 프록시 + 인증서 설정
 <img src="https://img.shields.io/badge/AWS%20EC2-Cloud-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white"/>
 <img src="https://img.shields.io/badge/AWS%20S3-Storage-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white"/>
 <img src="https://img.shields.io/badge/Nginx-ReverseProxy-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+
+---
