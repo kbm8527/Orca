@@ -81,21 +81,6 @@ bash
 편집
 http://localhost:8080/swagger-ui/index.html
 
-주요 기능
-
-회원가입 / 로그인 / 로그아웃 (JWT + 이메일 인증)
-
-상품 목록 / 상세 / 옵션 / 썸네일 이미지
-
-장바구니 CRUD
-
-주문 생성 / 조회 / 상태 변경
-
-찜하기 기능 (Redis + Spring Batch 기반 랭킹)
-
-추천 섹션 및 상품 등록/조회
-
-배너 이미지 업로드 (S3 연동)
 
 Swagger 기반 API 문서화
 
@@ -110,17 +95,26 @@ HTTPS: Nginx 리버스 프록시 + 인증서 설정
 
 ### Back-End
 
-[Java](https://img.shields.io/badge/Java-17-007396?style=flat-square&logo=java&logoColor=white)
-[Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.x-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-[Gradle](https://img.shields.io/badge/Gradle-7.x-02303A?style=flat-square&logo=gradle&logoColor=white)
-[JPA](https://img.shields.io/badge/JPA-Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
-[Spring Security](https://img.shields.io/badge/Spring%20Security-Secured-6DB33F?style=flat-square&logo=spring-security&logoColor=white)
-[JWT](https://img.shields.io/badge/JWT-Authorization-000000?style=flat-square)
-[MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=flat-square&logo=mysql&logoColor=white)
-[Redis](https://img.shields.io/badge/Redis-6.2+-DC382D?style=flat-square&logo=redis&logoColor=white)
-[Swagger](https://img.shields.io/badge/Swagger-UI-85EA2D?style=flat-square&logo=swagger&logoColor=black)
-[Docker](https://img.shields.io/badge/Docker-Container-2496ED?style=flat-square&logo=docker&logoColor=white)
-[Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-D24939?style=flat-square&logo=jenkins&logoColor=white)
-[Amazon EC2](https://img.shields.io/badge/AWS%20EC2-Cloud-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-[Amazon S3](https://img.shields.io/badge/AWS%20S3-Storage-569A31?style=flat-square&logo=amazon-aws&logoColor=white)
-[Nginx](https://img.shields.io/badge/Nginx-ReverseProxy-009639?style=flat-square&logo=nginx&logoColor=white)
+<!-- Language & Framework -->
+<img src="https://img.shields.io/badge/Java-17-007396?style=for-the-badge&logo=java&logoColor=white"/>
+<img src="https://img.shields.io/badge/SpringBoot-3.1.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gradle-7.x-02303A?style=for-the-badge&logo=gradle&logoColor=white"/>
+
+<!-- DB / Cache -->
+<img src="https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-6.2+-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+
+<!-- Security / Auth -->
+<img src="https://img.shields.io/badge/Spring%20Security-Secured-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-Authorization-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+
+<!-- Docs / Dev Tools -->
+<img src="https://img.shields.io/badge/Swagger-API-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
+<img src="https://img.shields.io/badge/Postman-TestTool-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+
+<!-- DevOps -->
+<img src="https://img.shields.io/badge/Docker-Container-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jenkins-CI/CD-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS%20EC2-Cloud-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS%20S3-Storage-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nginx-ReverseProxy-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
